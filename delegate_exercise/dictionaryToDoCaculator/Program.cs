@@ -41,7 +41,7 @@ namespace dictionaryToDoCaculator
             int a = Int32.Parse(Console.ReadLine());
             Console.WriteLine("please input operator");
             char o = Console.ReadLine()[0];
-            Console.WriteLine("please secend firsrt number");
+            Console.WriteLine("please input secend number");
             int b = Int32.Parse(Console.ReadLine());
 
             Console.WriteLine(dic[o](a, b));
