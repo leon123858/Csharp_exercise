@@ -7,6 +7,7 @@
     <RootNamespace>minimal_api</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver" Version="2.19.1" />
   </ItemGroup>
