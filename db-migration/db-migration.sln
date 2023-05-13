@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "db-migration", "db-migration\db-migration.csproj", "{77444C0B-7876-4F54-9A60-BA5BCDADF756}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77444C0B-7876-4F54-9A60-BA5BCDADF756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77444C0B-7876-4F54-9A60-BA5BCDADF756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77444C0B-7876-4F54-9A60-BA5BCDADF756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77444C0B-7876-4F54-9A60-BA5BCDADF756}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AC93321-CADA-4068-A0A8-7F96899745F2}
+	EndGlobalSection
+EndGlobal

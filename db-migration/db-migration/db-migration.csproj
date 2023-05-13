@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>db_migration</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dbup" Version="5.0.8" />
+    <PackageReference Include="dbup-mysql" Version="5.0.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Scripts\" />
+    <None Remove="Scripts\createTable.sql" />
+    <None Remove="Scripts\newData.sql" />
+    <None Remove="Scripts\newTable.sql" />
+    <None Remove="Scripts\script3.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\createTable.sql" />
+    <EmbeddedResource Include="Scripts\newTable.sql" />
+    <EmbeddedResource Include="Scripts\script3.sql" />
+  </ItemGroup>
+</Project>
