@@ -11,6 +11,14 @@ WebApplication app = builder.Build();
 
 app.UseCors();
 
+app.MapGet(
+    "/",
+    () =>
+    {
+        return "use /todoitems to try this server";
+    }
+);
+
 app.MapGroup("/todoitems").MapTodoItemsGroup();
 
 app.Run();
